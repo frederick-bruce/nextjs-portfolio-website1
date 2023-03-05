@@ -23,17 +23,37 @@ const Main = () => {
             responsive front-end web applications using the latest technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4 ">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#27a2bd] ease-in duration-300">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-[#27a2bd] ease-in duration-300">
+              <a
+                href="https://www.linkedin.com/in/frederickbruce/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin />
+              </a>
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-gray-600 ease-in duration-300">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-gray-600 ease-in duration-300">
+              <a
+                href="https://www.github.com/frederick-bruce"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub />
+              </a>
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#27a2bd] ease-in duration-300">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-[#27a2bd] ease-in duration-300">
+              <a
+                href="mailto:contact@frederickbruce.me"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiOutlineMail />
+              </a>
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#27a2bd] ease-in duration-300">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-[#27a2bd] ease-in duration-300">
+              <a href="/resume" target="_blank" rel="noreferrer">
                 <BsFillPersonLinesFill />
+              </a>
             </div>
           </div>
         </div>

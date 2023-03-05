@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { HiHome } from "react-icons/hi";
+import Link from "next/link";
 
 const resume = () => {
   return (
@@ -33,6 +35,11 @@ const resume = () => {
             >
               <FaGithub size={20} style={{ marginRight: "1rem" }} />
             </a>
+            <Link href="/#" legacyBehavior>
+              <p className="cursor-pointer">
+                <HiHome size={20} />
+              </p>
+            </Link>
           </div>
         </div>
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">

@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import AboutImage from  "../public/assets/projects/aboutImage.jpg"
+import Link from "next/link";
+
+import AboutImage from "../public/assets/projects/aboutImage.jpg";
 
 const About = () => {
   return (
@@ -18,6 +20,11 @@ const About = () => {
             applications has helped me gain knowledge in many of today&apos;s
             popular libraries such as Tailwind and NextJS.
           </p>
+          <Link href="/#projects">
+            <p className="py-2 text-gray-600 underline cursor-pointer">
+              Check out some of my latest projects.
+            </p>
+          </Link>
         </div>
         <div className="w-full h-full m-auto shadow-gray-400 shadow-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image
