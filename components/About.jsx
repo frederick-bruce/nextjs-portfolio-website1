@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AboutImage from  "../public/assets/aboutImage.jpg"
+import AboutImage from  "../public/assets/projects/aboutImage.jpg"
 
 const About = () => {
   return (
@@ -23,8 +23,8 @@ const About = () => {
           <Image
             className="rounded-xl"
             src={AboutImage}
-            width={128}
-            height={128}
+            width={320}
+            height={320}
             alt=""
           />
         </div>

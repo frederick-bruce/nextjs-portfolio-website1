@@ -59,12 +59,12 @@ const Contact = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#27a2bd]">
                     <AiOutlineMail />
                   </div>
-                  <Link href="/resume">
-                    <a className="">
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#27a2bd]">
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
+                  <Link href="/resume" className="">
+
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#27a2bd]">
+                      <BsFillPersonLinesFill />
+                    </div>
+
                   </Link>
                 </div>
               </div>
@@ -132,14 +132,14 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-            <a>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                <HiOutlineChevronDoubleUp
-                  className="text-[#27a2bd]"
-                  size={30}
-                />
-              </div>
-            </a>
+
+            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <HiOutlineChevronDoubleUp
+                className="text-[#27a2bd]"
+                size={30}
+              />
+            </div>
+
           </Link>
         </div>
       </div>

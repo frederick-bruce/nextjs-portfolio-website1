@@ -76,7 +76,7 @@ const property = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
+        <Link href='/#projects' legacyBehavior>
           <p className='underline cursor-pointer'>Back</p>
         </Link>
       </div>
