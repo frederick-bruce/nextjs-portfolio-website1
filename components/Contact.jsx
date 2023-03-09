@@ -9,8 +9,8 @@ import ContactImg from "../public/assets/contact.jpg";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full lg:h-screen">
-      <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
+    <div id="contact" className="w-full lg:h-screen pt-32">
+      <div className="max-w-[1240px] m-auto px-2 py-16 w-full h-full">
         <p className="text-xl tracking-widest uppercase text-[#27a2bd]">
           Contact
         </p>
@@ -37,15 +37,15 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <a
-                    href="https://www.linkedin.com/in/frederickbruce/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#27a2bd]">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#27a2bd]">
+                    <a
+                      href="https://www.linkedin.com/in/frederickbruce/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <FaLinkedinIn />
-                    </div>
-                  </a>
+                    </a>
+                  </div>
                   <a
                     href="https://github.com/frederick-bruce"
                     target="_blank"
@@ -57,17 +57,19 @@ const Contact = () => {
                   </a>
 
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#27a2bd]">
-                    <AiOutlineMail />
+                    <a
+                      href="mailto:contact@frederickbruce.me"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <AiOutlineMail />
+                    </a>
                   </div>
-                  <a
-                   href="mailto:contact@frederickbruce.me"
-                   target="_blank"
-                   rel="noreferrer"
-                  >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#27a2bd]">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:bg-[#27a2bd] ease-in duration-300">
+                    <a href="/resume" target="_blank" rel="noreferrer">
                       <BsFillPersonLinesFill />
-                    </div>
-                  </a>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
