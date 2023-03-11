@@ -27,7 +27,7 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
+            I built this application in React JS and is hosted on Firebase hosting.
             This app features user authentication with firebase as well as the
             firestore cloud storage database. This application is pulling movie
             data from an the IMDB movie API and displaying different categories.
@@ -36,14 +36,14 @@ const netflix = () => {
             management.
           </p>
           <a
-            href='https://github.com/frederick-bruce/netflix-react'
+            href='https://github.com/frederick-bruce/Firebase_netflix'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://netflix-3a902c.netlify.app/'
+            href='https://netflix-portfolio-d35be.web.app/'
             target='_blank'
             rel='noreferrer'
           >
